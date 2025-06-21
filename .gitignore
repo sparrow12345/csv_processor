@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# CSV/Generated data
+products.csv
