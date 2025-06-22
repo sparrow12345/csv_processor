@@ -6,7 +6,6 @@ A simple Python-based command-line tool to filter, aggregate, and sort CSV files
 
 ## 📁 Project Structure
 
-<!-- <pre><code> -->
 ```
 csv_processor/
 ├─ processor.py
@@ -18,7 +17,6 @@ csv_processor/
 ├─ requirements.txt
 ├─ README.md
 ```
-<!-- </code></pre> -->
 
 ## 🚀 Setup Instructions
 
@@ -70,6 +68,7 @@ python main.py product.csv [--where FILTER] [--aggregate AGGREGATE] [--order-by 
 |`--order-by` | Sort the rows. Format: column=asc or column=desc (e.g. rating=desc)|
 
 6. **🧾 Examples**
+
 Filter phones with price > 500, calculate the average price across all rows, or order rows by rating.
 
 ```
