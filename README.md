@@ -67,7 +67,7 @@ python main.py product.csv [--where FILTER] [--aggregate AGGREGATE] [--order-by 
 |`--aggregate`| Apply aggregation. Format: func=column (e.g. avg=price)|
 |`--order-by` | Sort the rows. Format: column=asc or column=desc (e.g. rating=desc)|
 
-6. **🧾 Examples**
+7. **🧾 Examples**
 
 Filter phones with price > 500, calculate the average price across all rows, or order rows by rating.
 
