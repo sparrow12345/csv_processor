@@ -6,11 +6,9 @@ A simple Python-based command-line tool to filter, aggregate, and sort CSV files
 
 ## 📁 Project Structure
 
-$ ./tree-md .
-# Project Structure
 <pre><code>
 ```
-my-app/
+csv_processor/
 ├─ processor.py
 ├─ products.csv
 ├─ main.py
@@ -24,26 +22,27 @@ my-app/
 
 ## 🚀 Setup Instructions
 
-1. Clone the Repository
+1. **Clone the Repository**
 
 ```
 git clone https://github.com/your-username/csv_processor.git
 ```
 
-2. Create and Activate a Virtual Environment
+2. **Create and Activate a Virtual Environment**
 
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
-3. Install Dependencies
+3. **Install Dependencies**
 
 ```
 pip install -r requirements.txt
 ```
 
-4. 🧪 Running Tests <br>
+4. **🧪 Running Tests****
+
 This project uses pytest for testing. To run all tests:
 
 ```
@@ -56,19 +55,19 @@ If you want a detailed report with coverage:
 PYTHONPATH=. pytest --cov=csv_processor tests/
 ```
 
-5. 🛠️ Usage (Command-Line Interface) <br>
-Run the CLI using main.py:
+5. **🛠️ Usage (Command-Line Interface)**
 
 ```
 python main.py product.csv [--where FILTER] [--aggregate AGGREGATE] [--order-by ORDER]
 ```
 
-6. 🔤 Arguments
+6. **🔤 Arguments**
+
 | Argument	| Description |
 |-----------|-------------|
-|--where	| Filter rows. Format: column/operator/value (e.g. price>500)|
-|--aggregate| Apply aggregation. Format: func=column (e.g. avg=price)|
-|--order-by	| Sort the rows. Format: column=asc or column=desc (e.g. rating=desc)|
+|`--where`	| Filter rows. Format: column/operator/value (e.g. price>500)|
+|`--aggregate`| Apply aggregation. Format: func=column (e.g. avg=price)|
+|`--order-by` | Sort the rows. Format: column=asc or column=desc (e.g. rating=desc)|
 
 6. 🧾 Examples
 Filter phones with price > 500, calculate the average price across all rows, or order rows by rating.
