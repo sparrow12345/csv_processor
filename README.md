@@ -8,7 +8,8 @@ A simple Python-based command-line tool to filter, aggregate, and sort CSV files
 
 $ ./tree-md .
 # Project Structure
-
+<pre><code>
+```
 my-app/
 ├─ processor.py
 ├─ products.csv
@@ -18,7 +19,8 @@ my-app/
 ├─ tests/
 ├─ requirements.txt
 ├─ README.md
-
+```
+</code></pre>
 
 ## 🚀 Setup Instructions
 
@@ -41,7 +43,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. 🧪 Running Tests
+4. 🧪 Running Tests\
 This project uses pytest for testing. To run all tests:
 
 ```
@@ -54,7 +56,7 @@ If you want a detailed report with coverage:
 pytest --cov=.
 ```
 
-5. 🛠️ Usage (Command-Line Interface)
+5. 🛠️ Usage (Command-Line Interface)\
 Run the CLI using main.py:
 
 ```
