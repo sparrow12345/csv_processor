@@ -6,7 +6,7 @@ A simple Python-based command-line tool to filter, aggregate, and sort CSV files
 
 ## 📁 Project Structure
 
-<pre><code>
+<!-- <pre><code> -->
 ```
 csv_processor/
 ├─ processor.py
@@ -18,7 +18,7 @@ csv_processor/
 ├─ requirements.txt
 ├─ README.md
 ```
-</code></pre>
+<!-- </code></pre> -->
 
 ## 🚀 Setup Instructions
 
@@ -41,7 +41,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **🧪 Running Tests****
+4. **🧪 Running Tests**
 
 This project uses pytest for testing. To run all tests:
 
@@ -69,7 +69,7 @@ python main.py product.csv [--where FILTER] [--aggregate AGGREGATE] [--order-by 
 |`--aggregate`| Apply aggregation. Format: func=column (e.g. avg=price)|
 |`--order-by` | Sort the rows. Format: column=asc or column=desc (e.g. rating=desc)|
 
-6. 🧾 Examples
+6. **🧾 Examples**
 Filter phones with price > 500, calculate the average price across all rows, or order rows by rating.
 
 ```
