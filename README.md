@@ -43,20 +43,20 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. 🧪 Running Tests\
+4. 🧪 Running Tests <br>
 This project uses pytest for testing. To run all tests:
 
 ```
-pytest
+PYTHONPATH=. pytest
 ```
 
 If you want a detailed report with coverage:
 
 ```
-pytest --cov=.
+PYTHONPATH=. pytest --cov=csv_processor tests/
 ```
 
-5. 🛠️ Usage (Command-Line Interface)\
+5. 🛠️ Usage (Command-Line Interface) <br>
 Run the CLI using main.py:
 
 ```
