@@ -1,7 +1,6 @@
 # CSV Processor 📊
 
-A simple Python-based command-line tool to filter, aggregate, and sort CSV files.
-
+A simple Python-based command-line tool to filter, aggregate, and sort CSV files. (If yo already know how this works, just skip to the examples and arguments below).
 ---
 
 ## 📁 Project Structure
